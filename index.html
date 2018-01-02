@@ -21,22 +21,111 @@
 				<img src="assets/img/logo-mobile-sinfondo.png" alt="logo">
 				<!-- Loading -->
 				<div class="row" id="load">
-						<div id="loader">
-							<div class="dot"></div>
-							<div class="dot"></div>
-							<div class="dot"></div>
-							<div class="dot"></div>
-							<div class="dot"></div>
-							<div class="dot"></div>
-							<div class="dot"></div>
-							<div class="dot"></div>
-							<div class="lading"></div>
-						</div>
+					<div id="loader">
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="lading"></div>
+					</div>
 				</div> <!-- fin loading -->
 			</div>
 		</div>
 	</div> <!-- fin vista splash -->
+	<!-- Selecciona Idioma-->
+	<div class="container-fluid language">
+		<div class="row">
+			<div class="col-xs-6 col-xs-push-3 col-sm-6 col-sm-push-3">
+				<img class="center-block" alt="logo" src="assets/img/logo-mobile-sinfondo.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-xs-8 col-sm-8 col-md-8 col-lg-8">
+				<select id="selector" name="selector" class="form-control" onChange="filter(this.value);">
+					<option value="rest">Selecciona tu idioma</option>
+					<option type="button" value="mexico">Español</option>
+					<option type="button" value="japon">Inglés</option>
+					<option type="button" value="thai">Francés</option>
+					<option type="button" value="chile">Alemán</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<button type="button" class="btn btn-link" id="btn1">Continuar</button>
+		</div>
+		
+	</div><!-- fin selecciona tu idioma -->
+	<!-- login -->
+	<div class="container login">
 
+
+		<div class="omb_login">
+			<h3 class="omb_authTitle">Login or <a href="#">Sign up</a></h3>
+			<div class="row omb_row-sm-offset-3 omb_socialButtons">
+				<div class="col-xs-4 col-sm-2">
+					<a href="#" class="btn btn-lg btn-block omb_btn-facebook">
+						<i class="fa fa-facebook visible-xs"></i>
+						<span class="hidden-xs">Facebook</span>
+					</a>
+				</div>
+				<div class="col-xs-4 col-sm-2">
+					<a href="#" class="btn btn-lg btn-block omb_btn-twitter">
+						<i class="fa fa-twitter visible-xs"></i>
+						<span class="hidden-xs">Twitter</span>
+					</a>
+				</div>	
+				<div class="col-xs-4 col-sm-2">
+					<a href="#" class="btn btn-lg btn-block omb_btn-google">
+						<i class="fa fa-google-plus visible-xs"></i>
+						<span class="hidden-xs">Google+</span>
+					</a>
+				</div>	
+			</div>
+
+			<div class="row omb_row-sm-offset-3 omb_loginOr">
+				<div class="col-xs-12 col-sm-6">
+					<hr class="omb_hrOr">
+					<span class="omb_spanOr">or</span>
+				</div>
+			</div>
+
+			<div class="row omb_row-sm-offset-3">
+				<div class="col-xs-12 col-sm-6">	
+					<form class="omb_loginForm" action="" autocomplete="off" method="POST">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user"></i></span>
+							<input type="text" class="form-control" name="username" placeholder="email address">
+						</div>
+						<span class="help-block"></span>
+
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+							<input  type="password" class="form-control" name="password" placeholder="Password">
+						</div>
+						<span class="help-block">Password error</span>
+
+						<button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+					</form>
+				</div>
+			</div>
+			<div class="row omb_row-sm-offset-3">
+				<div class="col-xs-12 col-sm-3">
+					<label class="checkbox">
+						<input type="checkbox" value="remember-me">Remember Me
+					</label>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<p class="omb_forgotPwd">
+						<a href="#">Forgot password?</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div><!-- fin login -->
 
 	<!-- Script -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
