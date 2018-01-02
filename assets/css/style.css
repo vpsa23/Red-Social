@@ -25,7 +25,7 @@
     height: 175px;
     left: 0;
     margin: auto;
-    margin-left: 60%;
+    margin-left: 65%;
     position: absolute;
     right: 0;
     top: 0;
@@ -109,14 +109,14 @@
 }
 #loader .dot:nth-child(7n+7)::before {
     animation: 0.8s linear 0.7s normal none infinite running load;
-    background: magenta none repeat scroll 0 0;
+    background: red none repeat scroll 0 0;
 }
 #loader .dot:nth-child(7n+8) {
     transform: rotate(360deg);
 }
 #loader .dot:nth-child(7n+8)::before {
     animation: 0.8s linear 0.8s normal none infinite running load;
-    background: rgb(247, 129, 137) none repeat scroll 0 0;
+    background: rgb(240, 20, 36) none repeat scroll 0 0;
 }
 #loader .lading {
     background-image: url("../images/loading.gif");
