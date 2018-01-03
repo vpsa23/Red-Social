@@ -33,3 +33,5 @@ $(document).ready(()=> {
 /*Select tipos de comida*/
 });
 
+}); 
+
