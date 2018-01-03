@@ -262,4 +262,18 @@
 
 
 /*Select tipos de comida*/
+#mexico{
+	text-align: justify;
+}
 
+#japonesa{
+	text-align: justify;
+}
+
+#thai{
+	text-align: justify;
+}
+
+.timeline{
+	padding: 20px;
+}
