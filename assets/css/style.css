@@ -20,15 +20,12 @@
 
 /*Loading*/
 
-#load{
-	margin-top: 65vh;
-	width: 100%;
-}
 #loader {
 	bottom: 0;
 	height: 175px;
 	left: 0;
 	margin: auto;
+  margin-top: 60%;
 	margin-left: 65%;
 	position: absolute;
 	right: 0;
@@ -41,6 +38,7 @@
 	left: 0;
 	margin: auto;
 	position: absolute;
+  margin-top: 60%;
 	right: 0;
 	top: 0;
 	width: 175px;
@@ -51,6 +49,7 @@
 	left: 0;
 	margin: auto;
 	position: absolute;
+  margin-top: 60%;
 	right: 0;
 	top: 0;
 	width: 87.5px;
