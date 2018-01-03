@@ -144,6 +144,10 @@
 	} /*Fin loading*/
 
 	/*Selecciona Idioma*/
+	.language{
+		background-color: rgb(244, 243, 200);
+		height: 100vh;
+	}
 
 	.language img{
 		margin-top: 40%;
