@@ -30,5 +30,7 @@ $(document).ready(()=> {
 		$('.principal').show();
 	});
 
+/*Select tipos de comida*/
+
 });
 
