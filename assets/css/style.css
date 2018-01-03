@@ -1,3 +1,6 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
 
 .content{
 	color: #FFF;
@@ -148,14 +151,21 @@
 	}
 
 	/*Login*/
-
+	.login img{
+		margin-top: 10%;
+		margin-bottom: 15%;
+		width: 100%;
+	}
+	.row-chek{
+		margin-left: 5%;
+	}
 	.omb_login .omb_authTitle {
 		text-align: center;
 		line-height: 300%;
 	}
 	
 	.omb_login .omb_socialButtons a {
-		color: white; // In yourUse @body-bg
+		color: white;
 		opacity:0.9;
 	}
 	.omb_login .omb_socialButtons a:hover {
@@ -198,6 +208,10 @@
 	}
 	.omb_login .omb_loginForm .help-block {
 		color: red;
+	}
+
+	.login .btn-danger {
+		margin-top: 5%;
 	}
 
 /*Contenido Principal*/
