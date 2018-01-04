@@ -377,12 +377,34 @@
 		color: #AA0000;
 	}
 
-	.principal .timeline img{
-		width: 50rem;
-		height: 30rem;
-		object-fit: cover;
-		margin-bottom: 3%;
+
+	@media only screen and (max-width : 767px) {
+		.principal .timeline img{
+			width: 50rem;
+			height: 20rem;
+			object-fit: cover;
+			margin-bottom: 3%;
+		}
 	}
+
+	@media only screen and (min-width : 768px) {
+		.principal .timeline img{
+			width: 80rem;
+			height: 50rem;
+			object-fit: cover;
+			margin-bottom: 3%;
+		}
+
+		.timeline-body {
+			max-width: 75rem;
+			height: auto;
+		}
+
+		.timeline-footer {
+			max-width: 75rem;
+		}
+	}
+
 	/*Select tipos de comida*/
 	#mexico{
 		text-align: justify;
