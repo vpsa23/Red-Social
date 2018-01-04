@@ -301,10 +301,18 @@
 		width: 50%;
 		margin-top: 1%;
 	}
+
+	.act{
+		font-size: 23px;
+		font-family: 'Englebert', sans-serif;
+		color: #AA0000;
+	}
+
 	.principal .timeline img{
 		width: 50rem;
 		height: 30rem;
 		object-fit: cover;
+		margin-bottom: 3%;
 	}
 	/*Select tipos de comida*/
 	#mexico{
@@ -321,4 +329,42 @@
 
 	.timeline{
 		padding: 20px;
+	}
+
+	#segModal1{
+		height: 70vh;
+	}
+
+	.segperfil{
+		width: 70%;
+	}
+
+	.seguidos{
+		margin-top: 5%;
+	}
+
+	#segModal2 .btn{
+		width: 7em;
+	}
+
+	.img-receta{
+		margin-top: 0.4em;
+		width: 4em;
+		height: 4em;
+	}
+
+	.btned{
+		margin-top: 1em;
+	}
+
+	#recetasModal h4{
+	margin-bottom: 0.1em;
+}
+
+#recetasModal img:last-child{
+	margin-bottom: 1em;
+}
+
+	.fa-cutlery{
+		margin-right: 1em;
 	}

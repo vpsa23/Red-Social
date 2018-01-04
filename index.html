@@ -11,11 +11,298 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Crushed|Englebert" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+	<!--Modal mis recetas-->
+	<div class="modal fade" id="misrecetasModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content container-fluid">
+				<div class="modal-header row">
+					<div class="col-xs-12 col-sm-12">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title act" id="myModalLabel">Mis Recetas</h4>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="img-receta img-circle" src="assets/img/mexico/mex5.jpg" alt="receta">
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<h4>Lorem ipsum dolor sit</h4>
+						<h6>04/01/2018</h6>
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<button class="btn btn-danger btned" type="button">Editar</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="img-receta img-circle" src="assets/img/thai/thai4.jpeg" alt="receta">
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<h4>Lorem ipsum dolor sit</h4>
+						<h6>04/01/2018</h6>
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<button class="btn btn-danger btned" type="button">Editar</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="img-receta img-circle" src="assets/img/health/health4.jpg" alt="receta">
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<h4>Lorem ipsum dolor sit amet</h4>
+						<h6>04/01/2018</h6>
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<button class="btn btn-danger btned" type="button">Editar</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="img-receta img-circle" src="assets/img/vegetariana/veg5.jpg" alt="receta">
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<h4>Lorem ipsum dolor sit amet, consectetur</h4>
+						<h6>04/01/2018</h6>
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<button class="btn btn-danger btned" type="button">Editar</button>
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</div> <!-- fin modal mis recetas -->
+		<!--Modal recetas guardadas-->
+	<div class="modal fade" id="recetasModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content container-fluid">
+				<div class="modal-header row">
+					<div class="col-xs-12 col-sm-12">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title act" id="myModalLabel">Recetas Guardadas</h4>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="img-receta img-circle" src="assets/img/vegetariana/veg2.jpg" alt="receta">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<a>User Lorem ipsum</a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger btned" type="button"><i class="fa fa-cutlery" aria-hidden="true"></i>Preparar</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="img-receta img-circle" src="assets/img/health/health4.jpg" alt="receta">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<a>User Lorem ipsum</a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger btned" type="button"><i class="fa fa-cutlery" aria-hidden="true"></i>Preparar</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="img-receta img-circle" src="assets/img/mexico/mex1.jpg" alt="receta">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<a>User Lorem ipsum</a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger btned" type="button"><i class="fa fa-cutlery" aria-hidden="true"></i>Preparar</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="img-receta img-circle" src="assets/img/health/health3.jpg" alt="receta">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<a>User Lorem ipsum</a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger btned" type="button"><i class="fa fa-cutlery" aria-hidden="true"></i>Preparar</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="img-receta img-circle" src="assets/img/mexico/mex6.jpg" alt="receta">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<a>User Lorem ipsum</a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger btned" type="button"><i class="fa fa-cutlery" aria-hidden="true"></i>Preparar</button>
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</div> <!-- fin modal recetas guardadas -->
+	<!--Modal Siguiendo-->
+	<div class="modal fade" id="segModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content container-fluid">
+				<div class="modal-header row">
+					<div class="col-xs-12 col-sm-12">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title act" id="myModalLabel">Siguiendo</h4>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger" type="button">Siguiendo</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger" type="button">Siguiendo</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger" type="button">Siguiendo</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger" type="button">Siguiendo</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger" type="button">Siguiendo</button>
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</div> <!-- fin modal siguiendo -->
+			<!--Modal Seguidores-->
+	<div class="modal fade" id="segModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content container-fluid">
+				<div class="modal-header row">
+					<div class="col-xs-12 col-sm-12">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title act" id="myModalLabel">Seguidores</h4>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger" type="button">Siguiendo</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger" type="button">Siguiendo</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-default" type="button">Seguir</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-danger" type="button">Siguiendo</button>
+					</div>
+				</div>
+				<div class="row seguidos">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<img class="segperfil img-circle" src="assets/img/perfil.jpg" alt="perfil">
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+						<h4>Lorem ipsum</h4>
+						<h6>Lorem ipsum dolor</h6>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<button class="btn btn-default" type="button">Seguir</button>
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</div> <!-- Seguidores -->
+
+
 	<!--splash-->
 	<div class="container-fluid content hidden-md hidden-lg">
 		<div class="row">
@@ -149,10 +436,10 @@
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="#">Inicio</a></li>
 							<li><a href="#">Perfil</a></li>
-							<li><a href="#">Mis Recetas</a></li>
-							<li><a href="#">Recetas Guardadas</a></li>
-							<li><a href="#">Seguidos</a></li>
-							<li><a href="#">Seguidores</a></li>
+							<li data-toggle="modal" data-target="#misrecetasModal"><a href="#">Mis Recetas</a></li>
+							<li data-toggle="modal" data-target="#recetasModal"><a href="#">Recetas Guardadas</a></li>
+							<li data-toggle="modal" data-target="#segModal1"><a href="#">Siguiendo</a></li>
+							<li data-toggle="modal" data-target="#segModal2"><a href="#">Seguidores</a></li>
 						</ul>
 					</div>
 				</div>
@@ -173,9 +460,13 @@
 			</div>
 		</div>
 		<!--FIN FILTRO DE COMIDA-->
-	
-
-		
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12">
+					<h3 class="act">Actualizaciones</h3>
+				</div>
+			</div>
+		</div>
 		<div class="container" id="mexico">
 			<div class="row">
 				<ul class="timeline">
@@ -375,7 +666,6 @@
 	<!-- fin seccion principal -->
 
 	<!-- Script -->
-	<script src="https://use.fontawesome.com/0b3a1bf230.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="assets/js/app.js"></script>
 </body>
