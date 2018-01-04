@@ -155,18 +155,24 @@
 				</div>
 			</nav>
 		</div>
+
+		<!-- FILTRO DE COMIDAS -->
 		<div class="row">
 			<div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-xs-8 col-sm-8 col-md-8 col-lg-8">
 				<select id="selector" name="selector" class="form-control" onChange="filter(this.value);">
-					<option value="">Categorias de Comidas</option>
-					<option type="button" value="">Mexicana</option>
-					<option type="button" value="">Japonesa</option>
-					<option type="button" value="">Thai</option>
+					<option type="button" value="comida">Categorias de Comidas</option>
+					<option type="button" value="mexico">Mexicana</option>
+					<option type="button" value="japon">Japonesa</option>
+					<option type="button" value="thai">Thai</option>
 					<option type="button" value="">Vegetariana</option>
 					<option type="button" value="">Saludable</option>
 				</select>
 			</div>
 		</div>
+		<!--FIN FILTRO DE COMIDA-->
+	
+
+		
 		<div class="container" id="mexico">
 			<div class="row">
 				<ul class="timeline">
@@ -184,6 +190,9 @@
 							<a>
 								<i class="glyphicon glyphicon-share"></i>
 							</a>
+							<a>
+								<i class="glyphicon glyphicon-plus"></i>
+							</a>
 							<a class="pull-right">Agregar comentarios</a>
 						</div>
 					</div>
@@ -193,7 +202,7 @@
 				<ul class="timeline">
 					<div class="timeline-panel2">
 						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/mexico/mex2.jpg" id="mex1">
+							<img class="img-responsive" src="assets/img/mexico/mex2.jpg" id="mex2">
 						</div>
 						<div class="timeline-body">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
@@ -205,89 +214,8 @@
 							<a>
 								<i class="glyphicon glyphicon-share"></i>
 							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel3">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/mexico/mex3.jpg" id="mex1">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
 							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
-							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel4">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/mexico/mex4.jpg" id="mex1">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
-							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
-							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel5">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/mexico/mex5.jpg" id="mex1">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
-							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
-							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel6">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/mexico/mex6.jpg" id="mex1">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
-							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
+								<i class="glyphicon glyphicon-plus"></i>
 							</a>
 							<a class="pull-right">Agregar comentarios</a>
 						</div>
@@ -295,12 +223,15 @@
 				</ul>
 			</div>
 		</div>
-		<div class="container" id="japonesa">
+			
+			
+
+		<div class="container" id="japon">
 			<div class="row">
 				<ul class="timeline">
 					<div class="timeline-panel7">
 						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/japon/jap1.jpg" id="mex1">
+							<img class="img-responsive" src="assets/img/japon/jap1.jpg" id="jap1">
 						</div>
 						<div class="timeline-body">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
@@ -311,6 +242,9 @@
 							</a>
 							<a>
 								<i class="glyphicon glyphicon-share"></i>
+							</a>
+							<a>
+								<i class="glyphicon glyphicon-plus"></i>
 							</a>
 							<a class="pull-right">Agregar comentarios</a>
 						</div>
@@ -321,7 +255,7 @@
 				<ul class="timeline">
 					<div class="timeline-panel8">
 						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/japon/jap2.jpg" id="mex1">
+							<img class="img-responsive" src="assets/img/japon/jap2.jpg" id="jap2">
 						</div>
 						<div class="timeline-body">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
@@ -333,74 +267,16 @@
 							<a>
 								<i class="glyphicon glyphicon-share"></i>
 							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel9">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/japon/jap3.jpg" id="mex1">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
 							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
+								<i class="glyphicon glyphicon-plus"></i>
 							</a>
 							<a class="pull-right">Agregar comentarios</a>
 						</div>
 					</div>
 				</ul>
 			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel10">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/japon/jap4.jpg" id="mex1">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
-							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
-							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel11">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/japon/jap5.jpeg" id="mex1">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
-							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
-							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
+		</div>
+					
 		<div class="container" id="thai">
 			<div class="row">
 				<ul class="timeline">
@@ -417,6 +293,9 @@
 							</a>
 							<a>
 								<i class="glyphicon glyphicon-share"></i>
+							</a>
+							<a>
+								<i class="glyphicon glyphicon-plus"></i>
 							</a>
 							<a class="pull-right">Agregar comentarios</a>
 						</div>
@@ -439,76 +318,15 @@
 							<a>
 								<i class="glyphicon glyphicon-share"></i>
 							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel14">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/thai/thai3.jpeg" id="thai3">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
 							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
+								<i class="glyphicon glyphicon-plus"></i>
 							</a>
 							<a class="pull-right">Agregar comentarios</a>
 						</div>
 					</div>
 				</ul>
 			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel15">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/thai/thai4.jpeg" id="thai4">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
-							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
-							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
-			<div class="row">
-				<ul class="timeline">
-					<div class="timeline-panel16">
-						<div class="timeline-heading">
-							<img class="img-responsive" src="assets/img/thai/thai5.jpg" id="thai5">
-						</div>
-						<div class="timeline-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam quod dignissimos rerum veniam rem architecto voluptas quos facere voluptatibus molestiae odit, suscipit atque id, voluptate culpa assumenda a repellendus.</p>
-						</div>
-						<div class="timeline-footer">
-							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
-								<i class="glyphicon glyphicon-share"></i>
-							</a>
-							<a class="pull-right">Agregar comentarios</a>
-						</div>
-					</div>
-				</ul>
-			</div>
-			
-	</div
+		</div
 				
 			
 	
