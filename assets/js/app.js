@@ -28,9 +28,6 @@ $(document).ready(()=> {
 		$('.login').hide();
 		$('.principal').show();
 	});
-
-
-
 });
 
 /*Filtrar Restaurantes*/

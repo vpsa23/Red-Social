@@ -145,12 +145,15 @@
 	/*Selecciona Idioma*/
 	.language{
 		height: 100vh;
+		width: 100%;
 	}
 
-	.language img{
-		margin-top: 40%;
-		margin-bottom: 15%;
-		width: 100%;
+	.language h2{
+		margin-bottom: 8%;
+		font-family: 'Englebert', sans-serif;
+		color: #AA0000;
+		text-align: center;
+		font-size: 45px;
 	}
 
 	.language h3{
@@ -170,28 +173,48 @@
 	}
 
 	#btn1{
-		margin-top: 27%;
-		margin-left: 72%;
+		margin-top: 15%;
+		margin-left: 70%;
 		font-size: 23px;
 		font-family: 'Englebert', sans-serif;
+	}
+
+	@media only screen and (max-width : 767px) {
+		.language img{
+			margin-top: 40%;
+			margin-bottom: 15%;
+			width: 100%;
+		}
+	}
+
+	@media only screen and (min-width : 768px) {
+		.language{
+			background-color: rgb(244, 243, 200);
+			padding: 4%;
+		}
+
+		.language img{
+			width: 100%;
+		}
+
+		.inf{
+			margin-top: 5%;
+		}
+
+		.language h2{
+			font-size: 60px;
+		}
+
+		.language p{
+			margin-top: -5%;
+			margin-bottom: 8%;
+			text-align: center;
+			font-family: 'Englebert', sans-serif;
+			font-size: 20px;
+		}
 	}
 
 	/*Login*/
-	.login{
-		padding: 2% 10%;
-	}
-
-	.login img{
-		margin-top: 10%;
-		margin-bottom: 15%;
-		width: 100%;
-	}
-
-	#btnback{
-		margin-left: -5%;
-		font-size: 23px;
-		font-family: 'Englebert', sans-serif;
-	}
 
 	.row-chek{
 		margin-left: 5%;
@@ -250,6 +273,52 @@
 	.login .btn-danger {
 		margin-top: 5%;
 	}
+	
+	@media only screen and (max-width : 767px) {
+		.login img{
+			margin-top: 10%;
+			margin-bottom: 15%;
+			width: 100%;
+		}
+		.login{
+		padding: 2% 10%;
+		}
+
+		#btnback{
+		margin-left: -5%;
+		font-size: 23px;
+		font-family: 'Englebert', sans-serif;
+		}
+	}
+
+	@media only screen and (min-width : 768px) {
+		.login{
+			padding: 3%;
+		}
+
+		.login img{
+			margin-top: 5%;
+			width: 90%;
+			margin-left: -5em;
+		}
+
+		.login h2{
+			text-align: center;
+			margin-top: 2em;
+			margin-bottom: 8%;
+			font-family: 'Englebert', sans-serif;
+			color: #AA0000;
+			text-align: center;
+			font-size: 40px;
+		}
+
+		#btnback{
+		margin-top: -25em;
+		font-size: 20px;
+		font-family: 'Englebert', sans-serif;
+		}
+	}
+
 
 	/*Contenido Principal*/
 	.navbar-custom {
