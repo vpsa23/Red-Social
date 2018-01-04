@@ -301,9 +301,10 @@
 		width: 50%;
 		margin-top: 1%;
 	}
-	/*.principal img{
+	.principal .timeline img{
 		width: 50rem;
-		height: 30rem;*/
+		height: 30rem;
+		object-fit: cover;
 	}
 	/*Select tipos de comida*/
 	#mexico{
