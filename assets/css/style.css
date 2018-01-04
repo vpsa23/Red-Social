@@ -333,6 +333,7 @@
 
 	.segperfil{
 		width: 70%;
+		max-width: 5em;
 	}
 
 	.seguidos{
