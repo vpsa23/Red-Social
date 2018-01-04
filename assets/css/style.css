@@ -25,7 +25,7 @@
 	height: 175px;
 	left: 0;
 	margin: auto;
-  margin-top: 60%;
+	margin-top: 60%;
 	margin-left: 65%;
 	position: absolute;
 	right: 0;
@@ -38,7 +38,7 @@
 	left: 0;
 	margin: auto;
 	position: absolute;
-  margin-top: 60%;
+	margin-top: 60%;
 	right: 0;
 	top: 0;
 	width: 175px;
@@ -49,7 +49,7 @@
 	left: 0;
 	margin: auto;
 	position: absolute;
-  margin-top: 60%;
+	margin-top: 60%;
 	right: 0;
 	top: 0;
 	width: 87.5px;
@@ -154,39 +154,44 @@
 	}
 
 	.language h3{
-		margin-bottom: 10%;
-    font-family: 'Englebert', sans-serif;
-    color: #AA0000;
-    text-align: center;
-    font-size: 30px;
-  }
+		margin-bottom: 8%;
+		font-family: 'Englebert', sans-serif;
+		color: #AA0000;
+		text-align: center;
+		font-size: 30px;
+	}
 
-  .language h4{
-    text-align: center;
-    margin-top: -5%;
-    font-family: 'Englebert', sans-serif;
-    color: #AA0000;
-    font-size: 23px;
-  }
+	.language h4{
+		text-align: center;
+		margin-top: -5%;
+		font-family: 'Englebert', sans-serif;
+		color: #AA0000;
+		font-size: 23px;
+	}
 
 	#btn1{
 		margin-top: 27%;
 		margin-left: 72%;
-    font-size: 23px;
-    font-family: 'Englebert', sans-serif;
+		font-size: 23px;
+		font-family: 'Englebert', sans-serif;
 	}
 
 	/*Login*/
+	.login{
+		padding: 2% 10%;
+	}
+
 	.login img{
 		margin-top: 10%;
 		margin-bottom: 15%;
 		width: 100%;
 	}
 
-  #btnback{
-    font-size: 23px;
-    font-family: 'Englebert', sans-serif;
-  }
+	#btnback{
+		margin-left: -5%;
+		font-size: 23px;
+		font-family: 'Englebert', sans-serif;
+	}
 
 	.row-chek{
 		margin-left: 5%;
@@ -246,7 +251,7 @@
 		margin-top: 5%;
 	}
 
-/*Contenido Principal*/
+	/*Contenido Principal*/
 	.navbar-custom {
 		background-color: #CC0000;
 		border-color: #AA0000;
@@ -292,24 +297,27 @@
 		background-color: #FFF;
 	}
 
-  .brand{
-    width: 50%;
-    margin-top: -3%;
-  }
+	.brand{
+		width: 50%;
+		margin-top: 1%;
+	}
+	/*.principal img{
+		width: 50rem;
+		height: 30rem;*/
+	}
+	/*Select tipos de comida*/
+	#mexico{
+		text-align: justify;
+	}
 
-/*Select tipos de comida*/
-#mexico{
-	text-align: justify;
-}
+	#japonesa{
+		text-align: justify;
+	}
 
-#japonesa{
-	text-align: justify;
-}
+	#thai{
+		text-align: justify;
+	}
 
-#thai{
-	text-align: justify;
-}
-
-.timeline{
-	padding: 20px;
-}
+	.timeline{
+		padding: 20px;
+	}
