@@ -464,6 +464,8 @@
   .profile h3{
     margin-left: 30%;
     margin-top: 5%;
+    font-family: 'Englebert', sans-serif;
+    color: #AA0000;
   }
 
   table{
@@ -473,7 +475,9 @@
 
   thead th, tbody td{
     text-align: center;
-    width: 25%;
+    width: 15%;
+    font-family: 'Englebert', sans-serif;
+    color: #AA0000;
   }
 
   #photo1 img, #photo2 img, #photo3 img{
