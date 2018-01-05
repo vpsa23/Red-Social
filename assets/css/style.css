@@ -475,6 +475,12 @@
     width: 25%;
   }
 
-  tbody td{
-    
+  #photo1 img, #photo2 img, #photo3 img{
+    width: 120%;
+    height: 120%;
+    margin-left: 60%;
+}
+
+  #secondPhoto, #thirdPhoto{
+    margin-top: 5%;
   }
