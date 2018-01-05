@@ -453,6 +453,7 @@
 		margin-right: 1em;
 	}
 
+  @media only screen and (max-width : 767px){
   /* PERFIL */
   .profile img{
     width: 30%;
@@ -479,8 +480,53 @@
     width: 120%;
     height: 120%;
     margin-left: 60%;
-}
+  }
 
   #secondPhoto, #thirdPhoto{
     margin-top: 5%;
   }
+}
+
+
+  @media only screen and (min-width : 768px){
+
+  .profile img{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+  }
+
+  .profile h3{
+    margin-left: 43%;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Englebert', sans-serif;
+    color: #AA0000;
+  }
+
+  table{
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  thead th, tbody td{
+    text-align: center;
+    width: 25%;
+    font-size: 25px;
+    font-family: 'Englebert', sans-serif;
+    color: #AA0000;
+  }
+
+  #photo1 img, #photo2 img, #photo3 img{
+    width: 120%;
+    height: 120%;
+    margin-left: 40%;
+    margin-right: 5%;
+ }
+
+  #secondPhoto, #thirdPhoto{
+    margin-top: 5%;
+  }
+
+  }
+/*FIN DEL PERFIL*/
