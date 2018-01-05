@@ -2,6 +2,7 @@ $(document).ready(()=> {
 	$('.language').hide();
 	$('.login').hide();
 	$('.principal').hide();
+	$('.profile').hide();
 
 	/*Vista splash con duración de 2 a 5 segundos*/
 	setTimeout(()=> {
@@ -29,6 +30,14 @@ $(document).ready(()=> {
 		$('.principal').show();
 	});
 });
+
+/* PERFIL */
+	$('#perfil').click(()=>{
+		$('.language').hide();
+		$('.login').hide();
+		$('.principal').hide();
+		$('.profile').show();
+	})
 
 /*Filtrar Restaurantes*/
 
@@ -60,6 +69,9 @@ function filter(id) {
 		$('#thai').show();
 	}
 }
+
+
+
 
 
 /* Intento para ocultar vista splash desde jQuery
