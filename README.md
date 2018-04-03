@@ -1,7 +1,7 @@
 # Red-Social
 GoodFood es una app basada en una red-social de comida donde podrás publicar y ver comida en cualquier país que te encuentres, podrás también comentar, guardar y darle like a las publicaciones. https://vpsa23.github.io/Red-Social/
 
-![Diseño](app.JPG)
+![Diseño](https://drive.google.com/file/d/121EH-GuP2VOpBSPltDU5UDw0C8S7ATFq/view)
 
 ## SOBRE EL PRODUCTO
 
